@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Design and architecture</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/0d7923cb2b.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="test_layout_2.css">
+    </head>
+    <body class="white content">
+         
+        <div class="grid mobile center">
+            <!--Header content/home-->
+           
+            <header class="white padding-32 center" id="home"> 
+                <h1 class="jumbo"><span class="hide-small">Welcome to</span> My world </h1>
+                <p class="wide grey-text">Designer and Architect</p> 
+            </header>
+
+            <!-- Icon Bar(side-bar hidden on small screens)-->
+
+            <nav class="sidebar-left hide-small center">
+                <!-- Avatar image in top left corner-->
+                <img src="photos/IMG20200222132147.jpg" alt="avatar">
+                <a href="#" class="bar-item button padding-12 white">
+                    <i class="fas fa-igloo"></i> 
+                    <p>Home</p>
+                </a>
+                <a href="#about" class="bar-item button padding-12">
+                    <i class="far fa-user"></i>
+                    <p>About</p>
+                </a>
+                <a href="#gallery" class="bar-item button padding-12">
+                    <i class="fas fa-camera-retro"></i>
+                    <p>Gallery</p>
+                </a>
+                <a href="#contact" class="bar-item button padding-12">
+                    <i class="far fa-envelope"></i>
+                    <p>Contact</p>
+                </a>
+            </nav>
+            <!-- Navbar on small screens-->
+            <div class="top white-blue hide-large hide-medium" id="myNavbar">
+                <div class="bar opacity hover-opacity-off center small">
+                    <a href="#" class="bar-item button">HOME</a>
+                    <a href="#about" class="bar-item button">ABOUT</a>
+                    <a href="#gallery" class="bar-item button">GALLERY</a>
+                    <a href="#contact" class="bar-item button">CONTACT</a>
+                </div>
+            </div>
+
+            <!--Page content-->
+            <article> 
+                <img src="photos/DSC06972.JPG" alt="skyscraper" width="990" height="990">
+                <!--About section-->
+
+                <div id="about">
+                    <!--Skills-->
+                    <h2 class="left-align padding-16">My skills</h2>
+
+                    <p class="wide left-align grey-text">AutoCAD</p>
+
+                    <div class="white-blue">
+                        <div class="blue" style="width:95%"></div>
+                    </div>
+
+                    <p class="wide left-align grey-text">CorelDRAW</p>
+                    <div class="white-blue">
+                        <div class="blue" style="width:90%"></div>  
+                    </div>
+
+                    <p class="wide left-align grey-text">Adobe Illustrator</p>
+                    <div class="white-blue">
+                        <div class="blue" style="width:90%"></div>
+                    </div>
+
+                    <p class="wide left-align grey-text">Adobe InDesign</p>
+                    <div class="white-blue">
+                        <div class="blue" style="width:80%"></div>
+                    </div>
+
+                    <br>
+                    <!--End skills section-->
+
+                    <div class="center white-blue blue-blocks">
+                        <div class="quarter grey-text alternative-font wide">
+                            <span class="xlarge">30+</span><br>
+                            Certificates of excellence
+                        </div>
+                        <div class="quarter grey-text alternative-font wide">
+                            <span class="xlarge">20+</span><br>
+                            International partners
+                        </div>
+                        <div class="quarter grey-text alternative-font wide">
+                            <span class="xlarge">50+</span><br>
+                            Projects done
+                        </div>
+                        <div class="quarter grey-text alternative-font wide">
+                            <span class="xlarge">90+</span><br>
+                            Co-workshops conducted
+                        </div>
+                    </div>
+                    <!--End about section-->
+                    
+                </div>
+                <!--Grid for pricing-->
+
+                <h2 class="left-align padding-64"> Rates</h2>
+                <div class="row-padding">
+                    <div class="center margin-left">
+                        <table class="white pricing grey-text">
+                            <tr>
+                                <th class="white-blue padding-32">Basic</th>
+                                <th class="white-blue padding-32 ">Pro</th>
+                            </tr>
+                            <tr>
+                                <td class="padding-16">Design</td>
+                                <td class="padding-16">Design</td>
+                            </tr>
+                            <tr>
+                                <td class="padding-16">Final sketches provided</td>
+                                <td class="padding-16">All sketches provided</td>
+                            </tr>
+                            <tr>
+                                <td class="padding-16">Mail support</td>
+                                <td class="padding-16">Constant mail support</td>
+                            </tr>
+                            <tr>
+                                <td class="padding-16">
+                                    <p>50$</p>
+                                    <span class="wide">per month</span>
+                                </td>
+                                <td class="padding-16">
+                                    <p>100$</p>
+                                    <span class="wide">per month</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="padding-24">
+                                    <button class="white padding-large hover-black cursor grey-text">Sign Up</button>
+                                </td> 
+                                <td class="padding-24">
+                                    <button class="white padding-large hover-black cursor grey-text">Sign Up</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>  
+                 <!--Portfolio section-->
+                <div class="padding-64" id="gallery">
+                    <h2 class="left-align">My projects</h2> 
+                    <hr class="hr-grey margin-left">
+
+                 <!--Grid for photos-->
+                    <div class="row-padding padding-16">
+                        <div class="half">
+                            <img src="photos/IMG20200223165424.jpg" alt="reception-1">
+                            <img src="photos/IMG20200223161154.jpg" alt="bedroom">
+                        </div>
+                        <div class="half">
+                            <img src="photos/IMG20200223165358.jpg" alt="paintings">
+                            <img src="photos/IMG20200221194221.jpg" alt="reception-2">
+                        </div>
+
+                    </div> <!--End photo grid-->
+
+                </div> <!--End portfolio-->
+
+                 <!--Contact section-->
+                <div class="padding-64 justify" id="contact"> 
+                    <h2 class="justify padding-16">Contact me</h2>
+                    <hr class="hr-grey margin-left">
+
+                    <p class="wide opacity hover-opacity-off grey-text">
+                        <i class="fas fa-map-marker-alt xlarge margin-right"></i>
+                        Barcelona, Spain
+                    </p>
+                    <p class="wide opacity hover-opacity-off grey-text">
+                        <i class="fas fa-phone xlarge margin-right"></i>
+                        Phone:<span class="purple">+34 1720357</span>
+                    </p>
+                    <p class="wide opacity hover-opacity-off cursor grey-text">
+                        <i class="far fa-envelope xlarge margin-right"></i>
+                        E-mail: <a href="mailto:christina_design@gmail.com?Subject=Hello%20Christina" target="_blank" class="purple">christina_design@gmail.com</a>
+                    </p>
+                    <br>
+                </div> <!--End contact section-->
+            </article>  
+            <!--Footer-->
+            <footer class="justify padding-64 xlarge margin-left"> 
+                <i class="fab fa-facebook opacity hover-opacity-off cursor"></i>
+                <i class="fab fa-instagram opacity hover-opacity-off cursor"></i>
+                <i class="fab fa-pinterest-square opacity hover-opacity-off cursor"></i>
+                <i class="fab fa-linkedin opacity hover-opacity-off cursor"></i>
+                <div class="padding-32">
+                     <p class="small grey-text opacity justify">
+                    Designed by 
+                    <a href="https://www.linkedin.com/in/alyona-iablokova-623ab762/" 
+                       target="_blank" class="text-purple">Alionie</a> 
+                    &hearts;
+                </p>
+                </div>
+                <!-- End footer-->
+            </footer>
+        </div> 
+        <!--End page content-->
+    </body>
+</html>
