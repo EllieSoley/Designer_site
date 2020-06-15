@@ -6,11 +6,10 @@ and open the template in the editor.
 /* 
     Created on : Mar 12, 2020, 2:55:24 PM
     Author     : Alionie
-layout inspired by w3schools
 */
 
 .fas, .fa-camera-retro, .fa-envelope, .fa-facebook, .fa-igloo, .fa-instagram, .fa-linkedin, .fa-map-marker-alt,
-.fa-phone, .fa-pinterest-square, .fa-user, .far, .fab {
+.fa-phone, .fa-pinterest-square,  .far, .fab, .far, .fa-user {
     width: 1em;
 }
 
@@ -39,9 +38,9 @@ body {
     grid-template-rows: min-content auto min-content;
     grid-gap: 8px;
     grid-template-areas: "sidebar-1 header"
-                         "sidebar-1 article"
-                         "sidebar-1 footer";   
-  
+        "sidebar-1 article"
+        "sidebar-1 footer";   
+
     min-height: 100vh;
 }
 header {
@@ -169,11 +168,11 @@ article > img {
     text-align: justify;
 }
 .quarter {
-    flex-basis: min-content; /*Check the syntax*/
+    flex-basis: min-content; 
     padding: 1em;
 }
 
-.top,.bottom{ /*Check the syntax*/
+.top,.bottom{ 
     position: fixed;
     width: 100%;
     z-index: 1;
@@ -232,6 +231,20 @@ bar-block.center .bar-item{ /*Check this line*/
     display: table; 
     clear: both;
 }
+#AutoCAD {
+    width:95%;
+}
+#CorelDRAW {
+    width:90%;
+}
+#AdobeIllustrator {
+    width:90%;
+}
+#AdobeInDesign {
+    width:80%;
+}
+
+
 
 /*Colors*/
 .white {
@@ -289,10 +302,16 @@ div.white-blue > div.blue {
     height: 1.75rem;
 }
 
-img[alt="avatar"] { /*the syntax*/
+img {
     width: 100%;
 }
 
+.img-gallery {
+    border: 3px solid #ccc;
+}
+.img-gallery:hover {
+    border: 3px solid #777;
+}
 .sidebar-left > .button {
     width: 100%;
 }
